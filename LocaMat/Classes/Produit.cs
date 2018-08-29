@@ -12,6 +12,6 @@ namespace LocaMat.Classes
         public string Nom { get; set; }
         public string Description { get; set; }
         public int IdCategorie { get; set; }
-        public double PrixJourHT { get; set; }
+        public decimal PrixJourHT { get; set; }
     }
 }

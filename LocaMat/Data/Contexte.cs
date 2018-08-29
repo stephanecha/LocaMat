@@ -11,6 +11,8 @@ namespace LocaMat.Data
         public DbSet<Client> Clients { get; set; }
 
         public DbSet<Agence> Agences { get; set; }
+
+        public DbSet<OffresProduit> OffresProduits { get; set; }
     }
 
 }
